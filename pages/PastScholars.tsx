@@ -19,7 +19,7 @@ const PastScholars: React.FC = () => {
       prize: '₦119,176',
       description: 'A remarkable scholar, Master Goodluck Jonathan made history by achieving a perfect score of 119/119. His flawless recitation and clear commitment to biblical values left a lasting impression on the judges and audience alike.',
       mediaType: 'image',
-      mediaUrl: `${import.meta.env.BASE_URL}images/year2-scholar.jpg`
+      mediaUrl: 'images/year2-scholar.jpg'
     },
     {
       year: 3,
@@ -28,7 +28,7 @@ const PastScholars: React.FC = () => {
       prize: '₦357,119',
       description: 'Ms. Joy Ogheneda brought a unique energy to the challenge in Year 3, representing Goldbeam Scholars. Her dedication and passion for the Word highlight the potential and impact of the Challenge.',
       mediaType: 'image',
-      mediaUrl: `${import.meta.env.BASE_URL}images/year3-scholar.jpg`
+      mediaUrl: 'images/year3-scholar.jpg'
     },
     {
       year: 4,
@@ -37,7 +37,7 @@ const PastScholars: React.FC = () => {
       prize: '₦528,119',
       description: 'Ms. Talia Atskameh stunned the audience with her powerful interpretation of Psalm 119, representing Ambassadors Primary School. She showed extraordinary dedication and became a role model for future participants.',
       mediaType: 'image',
-      mediaUrl: `${import.meta.env.BASE_URL}images/1OV6PR7sRTzTLb6xprdvP5aBqXGkPuQAS.jpg`
+      mediaUrl: 'images/1OV6PR7sRTzTLb6xprdvP5aBqXGkPuQAS.jpg'
     }
   ];
 

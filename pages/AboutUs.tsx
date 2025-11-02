@@ -118,7 +118,7 @@ const AboutUs: React.FC = () => {
               </div>
               <div className="relative">
                 <div className="absolute -inset-4 bg-gradient-to-r from-green-400 to-green-600 rounded-2xl blur-2xl opacity-20"></div>
-                <img src={`${import.meta.env.BASE_URL}images/1OV6PR7sRTzTLb6xprdvP5aBqXGkPuQAS.jpg`} alt="Group holding banner" className="relative rounded-2xl shadow-2xl w-full transform hover:scale-105 transition-transform duration-300" />
+                <img src="images/1OV6PR7sRTzTLb6xprdvP5aBqXGkPuQAS.jpg" alt="Group holding banner" className="relative rounded-2xl shadow-2xl w-full transform hover:scale-105 transition-transform duration-300" />
               </div>
             </div>
           </AnimatedSection>

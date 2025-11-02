@@ -40,7 +40,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename="/Psalm-119-website">
       <div className="font-sans antialiased relative overflow-x-hidden bg-gray-200">
         <FloatingElements />
         <Header />

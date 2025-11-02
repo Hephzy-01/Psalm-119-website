@@ -21,7 +21,7 @@ const Community: React.FC = () => {
                 <p className="text-lg text-green-200 ml-10">Engaging in community service projects, students make a tangible difference in their localities while applying the values learned from Psalm 119.</p>
               </div>
               <div className="w-full md:w-2/5">
-                <img src={`${import.meta.env.BASE_URL}images/1ngnadgAeRZ3TpuZqQcAbkBIG02cojBKk.jpg`} alt="Community engagement" className="rounded-xl shadow-lg w-full h-auto" />
+                <img src="images/1ngnadgAeRZ3TpuZqQcAbkBIG02cojBKk.jpg" alt="Community engagement" className="rounded-xl shadow-lg w-full h-auto" />
               </div>
             </div>
           </div>
