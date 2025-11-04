@@ -87,6 +87,21 @@
       .animate-float-sm {
          animation: float-sm 4s ease-in-out infinite;
       }
+      @keyframes gentle-bounce {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-15px); }
+      }
+      .animate-gentle-bounce {
+        animation: gentle-bounce 2s ease-in-out infinite;
+      }
+      @keyframes shake {
+        0%, 100% { transform: translateX(0); }
+        25% { transform: translateX(-5px); }
+        75% { transform: translateX(5px); }
+      }
+      .animate-shake {
+        animation: shake 0.5s ease-in-out infinite;
+      }
     </style>
 
 <link rel="stylesheet" href="./index.css">
@@ -99,7 +114,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/Psalm-119-website/assets/index-Cyg43nWj.js"></script>
+  <script type="module" crossorigin src="/Psalm-119-website/assets/index-Bvawb8LY.js"></script>
 </head>
   <body>
     <div id="root"></div>
