@@ -29,7 +29,7 @@
       .text-shadow {
         text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
       }
-      /* Mobile-first: Force smaller sizes on mobile */
+      /* Mobile-first: Smart text sizing with hierarchy */
       @media (max-width: 768px) {
         html {
           font-size: 16px;
@@ -44,9 +44,23 @@
           padding-left: 0.75rem !important;
           padding-right: 0.75rem !important;
         }
-        p, span, div, li {
+        /* Main content paragraphs - keep large */
+        section > div > p,
+        section > div > div > p {
           font-size: 1.125rem !important;
         }
+        /* Secondary text - slightly smaller */
+        .text-gray-600,
+        .text-gray-700,
+        .text-green-100 {
+          font-size: 1rem !important;
+        }
+        /* Small details - even smaller */
+        .text-sm,
+        .text-xs {
+          font-size: 0.875rem !important;
+        }
+        /* Headings */
         h1 {
           font-size: 2.5rem !important;
         }
